@@ -1,4 +1,4 @@
-import { Table } from "../components/Table";
+import { Game } from "../components/Game";
 
 export default function Home() {
   return (
@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="mb-6 text-center text-4xl font-medium text-primary sm:text-5xl md:mb-10 md:text-7xl lg:mb-14">
         Tic-Tac-Toe
       </h1>
-      <Table />
+      <Game />
     </main>
   );
 }
